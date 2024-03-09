@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Website title</title>
+    <style>
+        html {
+            font-family: "Times New Roman", sans-serif;
+        }
+
+        body {
+            background-color: #294135;
+            color: #e7e6e6;
+        }
+
+        .col-12 {
+            width: 100%;
+            float: left;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #57707a;
+        }
+
+        .center-block {
+            margin: 0 auto;
+            width: 415px;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        a {
+            color: #62cdd1;
+        }
+
+        footer {
+            position: relative;
+            bottom: 5px;
+            padding: 15px;
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 center">
+            <div class="center-block">
+                <main>
+                    <h1>Your Title</h1>
+                    <p>Your content here...</p>
+                </main>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <small>
+                <footer class="center-text">Some more content can go here.</footer>
+            </small>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</body>
+</html>
